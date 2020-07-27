@@ -1,0 +1,68 @@
+h1{
+    text-align: center;
+}
+p{
+    font-size: larger;
+    background-color: red;
+    font-family: fantasy;
+}
+div{
+    float: left;
+    margin: 20px;
+    width: 400px;
+}
+section{
+    font-size: small;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    clear: both;
+    padding: 20px;
+}
+#p-1{
+    float: right;
+    border: 5px solid black;
+}
+#p-2{
+    float: right;
+    border: 5px solid black;
+}
+#p-3{
+    float: right;
+    border: 5px solid black;
+}
+#out{
+    width: 100%;
+
+}
+#in-1{
+    background-color: gray;
+    border: 10px solid black;
+}
+#in-2{
+    background-color: gray;
+    border: 10px solid black;
+}
+#in-3{
+    background-color: gray;
+    border: 10px solid black;
+}
+@media(min-width:1200px){
+    #in-1, #in-2, #in-3{
+        width: 24%;
+    }
+@media(min-width: 800px) and (max-width: 1199px){
+    #in-1, #in-2,{
+        width: 50%;
+    } 
+    #in-3{
+        width: 100%;
+    }
+    }
+@media (max-width: 799px) {
+    #in-1, #in-2, #in-3{
+        width: 100%;
+    }
+    
+  
+
+
+
