@@ -1,67 +1,60 @@
-h1{
-    text-align: center;
-}
 p{
-    font-size: larger;
-    background-color: red;
-    font-family: fantasy;
-}
-div{
-    float: left;
-    margin: 20px;
-    width: 400px;
-}
-section{
-    font-size: small;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     clear: both;
     padding: 20px;
+    width: 90%;
+    font-size: small;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-#p-1{
-    float: right;
-    border: 5px solid black;
+div.out{
+    margin: 20px;
+    align-items: center;
 }
-#p-2{
-    float: right;
-    border: 5px solid black;
-}
-#p-3{
-    float: right;
-    border: 5px solid black;
-}
-#out{
-    width: 100%;
+h1{
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
 
 }
-#in-1{
-    background-color: gray;
-    border: 10px solid black;
+
+.in{
+    float: left;
+    border: 1px solid black;
+    background: grey ;
+    margin: 20px;
+
 }
-#in-2{
-    background-color: gray;
-    border: 10px solid black;
+div.inin{
+    float: right;
+    border: 1px solid black;
+    background-color: red;
+    font-size: medium;
+    font-family: sans-serif;
 }
-#in-3{
-    background-color: gray;
-    border: 10px solid black;
-}
-@media(min-width:1200px){
-    #in-1, #in-2, #in-3{
-        width: 24%;
+@media (min-width: 992px) {
+    #m{
+        width: 28%;
     }
-@media(min-width: 800px) and (max-width: 1199px){
-    #in-1, #in-2,{
-        width: 50%;
-    } 
-    #in-3{
-        width: 100%;
+    #m1{
+        width: 28%;
+      }
+    #m2{
+        width: 28%;
+      }
+  }
+  
+  
+  /********** Medium devices only **********/
+  @media (min-width: 768px) and (max-width: 991px) {
+    #m{
+        width: 41%;
     }
-    }
-@media (max-width: 799px) {
-    #in-1, #in-2, #in-3{
-        width: 100%;
-    }
-    
+    #m1{
+        width: 41%;
+      }
+    #m2{
+        width: 87%;
+      }
+  }  
   
 
 
